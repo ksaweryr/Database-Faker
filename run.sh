@@ -1,7 +1,5 @@
 #!/bin/bash
 
-bash setup.sh
-
 source .env
 
 get_health() {
@@ -39,4 +37,4 @@ then
 fi
 
 source venv/bin/activate
-python generate_data.py
+python src/generate_data.py

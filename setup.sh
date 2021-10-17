@@ -2,7 +2,7 @@
 
 if [ ! -e .env ]
 then
-	python3 setup_dotenv.py
+	python3 src/setup_dotenv.py
 fi
 
 if [ ! -e venv ]
